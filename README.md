@@ -6,3 +6,5 @@ Main file was divided into three parts due to github filesize limitation. It's d
 I parsed text base from this source http://speakrus.ru/dict/index.htm.
 
 More details and russian description you can find on my blog http://shra.ru/2017/03/morfologicheskijj-slovar-russkogo-yazyka-v-vide-sql-skripta/
+
+To import database, use parts in right order because first of the arhive includes instruction DROP TABLE `words` before create if it is not exists. 
